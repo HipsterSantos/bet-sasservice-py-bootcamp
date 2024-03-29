@@ -1,7 +1,7 @@
 FROM python:2.7-slim
-MAINTAINER Nick Janetakis <nick.janetakis@gmail.com>
+MAINTAINER HipsterSantos <santoscampos269.@gmail.com>
 
-ENV INSTALL_PATH /snakeeyes
+ENV INSTALL_PATH /winbet
 RUN mkdir -p $INSTALL_PATH
 
 WORKDIR $INSTALL_PATH
